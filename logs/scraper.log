@@ -1,0 +1,22 @@
+2026-10-06 15:23:33,964 | INFO | main | Run started
+2026-10-06 15:23:33,965 | INFO | scrapers.base_scraper | Books to Scrape | page 1 | https://books.toscrape.com/
+2026-10-06 15:23:54,442 | WARNING | urllib3.connectionpool | Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='books.toscrape.com', port=443): Read timed out. (read timeout=10)")': /catalogue/tipping-the-velvet_999/index.html
+2026-10-06 15:24:11,394 | WARNING | urllib3.connectionpool | Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /catalogue/tipping-the-velvet_999/index.html
+2026-10-06 15:25:05,435 | INFO | scrapers.base_scraper | Books to Scrape | page 2 | https://books.toscrape.com/catalogue/page-2.html
+2026-10-06 15:25:42,328 | ERROR | scrapers.base_scraper | Failed to fetch https://books.toscrape.com/catalogue/penny-maybe_965/index.html: HTTPSConnectionPool(host='books.toscrape.com', port=443): Read timed out.
+2026-10-06 15:26:06,739 | INFO | scrapers.base_scraper | Books to Scrape | page 3 | https://books.toscrape.com/catalogue/page-3.html
+2026-10-06 15:26:17,466 | ERROR | scrapers.base_scraper | Failed to fetch https://books.toscrape.com/catalogue/page-3.html: HTTPSConnectionPool(host='books.toscrape.com', port=443): Read timed out.
+2026-10-06 15:26:17,468 | ERROR | scrapers.base_scraper | Books to Scrape: stopping at page 3 because it could not be loaded
+2026-10-06 15:26:17,468 | INFO | scrapers.base_scraper | Books to Scrape: collected 40 raw records
+2026-10-06 15:26:17,473 | INFO | scrapers.base_scraper | Quotes to Scrape | page 1 | https://quotes.toscrape.com/
+2026-10-06 15:26:27,523 | INFO | scrapers.base_scraper | Quotes to Scrape | page 2 | https://quotes.toscrape.com/page/2/
+2026-10-06 15:26:28,375 | INFO | scrapers.base_scraper | Quotes to Scrape | page 3 | https://quotes.toscrape.com/page/3/
+2026-10-06 15:26:29,217 | INFO | scrapers.base_scraper | Quotes to Scrape | page 4 | https://quotes.toscrape.com/page/4/
+2026-10-06 15:26:30,053 | INFO | scrapers.base_scraper | Quotes to Scrape | page 5 | https://quotes.toscrape.com/page/5/
+2026-10-06 15:26:30,911 | INFO | scrapers.base_scraper | Quotes to Scrape | page 6 | https://quotes.toscrape.com/page/6/
+2026-10-06 15:26:31,763 | INFO | scrapers.base_scraper | Quotes to Scrape | page 7 | https://quotes.toscrape.com/page/7/
+2026-10-06 15:26:32,612 | INFO | scrapers.base_scraper | Quotes to Scrape | page 8 | https://quotes.toscrape.com/page/8/
+2026-10-06 15:26:33,458 | INFO | scrapers.base_scraper | Quotes to Scrape | page 9 | https://quotes.toscrape.com/page/9/
+2026-10-06 15:26:34,298 | INFO | scrapers.base_scraper | Quotes to Scrape | page 10 | https://quotes.toscrape.com/page/10/
+2026-10-06 15:26:35,141 | INFO | scrapers.base_scraper | Quotes to Scrape: collected 100 raw records
+2026-10-06 15:26:35,148 | INFO | main | Run finished: 140 records written to C:\Users\Admin\Downloads\scraping_assignment\scraping_assignment\output\final_dataset.csv
